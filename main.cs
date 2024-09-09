@@ -1,17 +1,19 @@
 using System;
 
-class Program {
+class Program 
+{
+public static void Main(string[] args) 
+  {
+    lyrics1();
 
-  public static void Main(string[] args) {
-
-    var fullName = "Lucinda Potter";
-    var dateofBirth = "6/24/1992";
-    var workPhone = "work 000-000-0101";
-    var cellPhone = "cell 000-000-0189";
+    }
     
-    Console.WriteLine(fullName);
-    Console.WriteLine(dateofBirth);
-    Console.WriteLine(workPhone);
-    Console.WriteLine(cellPhone);
-  }
+  public static void lyrics1()
+   {
+     Console.WriteLine("Oh, well imagine /");
+     Console.WriteLine("As I'm pacing the pews in a church corridor /");
+     Console.WriteLine("And I can't help but to hear /");
+     Console.WriteLine("No I can't help but to hear an exchanging of words...");
+     Console.WriteLine();
+   }
   }
