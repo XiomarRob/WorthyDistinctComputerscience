@@ -5,7 +5,8 @@ class Program
 public static void Main(string[] args) 
   {
     lyrics1();
-
+    lyrics2();
+ 
     }
     
   public static void lyrics1()
@@ -16,4 +17,16 @@ public static void Main(string[] args)
      Console.WriteLine("No I can't help but to hear an exchanging of words...");
      Console.WriteLine();
    }
+  public static void lyrics2()
+  {
+    Console.WriteLine("Oh-oh-oh-oh-oh,");
+    Console.WriteLine();
+    Console.WriteLine("oh-oh-oh-oh,");
+    Console.WriteLine();
+    Console.WriteLine("oh-oh-oh /");
+    Console.WriteLine();
+    Console.WriteLine("Caught in a bad romance...");
+    Console.WriteLine();
+  }
+ 
   }
