@@ -7,6 +7,7 @@ public static void Main(string[] args)
     lyrics1();
     lyrics2();
     lyrics3();
+    lyrics4();
     }
     
   public static void lyrics1()
@@ -34,5 +35,15 @@ public static void Main(string[] args)
     Console.WriteLine("And I've been doing just fine");
     Console.WriteLine("Gotta gotta be down");
     Console.WriteLine("Because I want it all");
+    Console.WriteLine();
     }
+  public static void lyrics4()
+  {
+    Console.WriteLine("Now, this a story all about how");
+    Console.WriteLine("My life got flipped turned upside down");
+    Console.WriteLine("And I'd like to take a minute");
+    Console.WriteLine("Just sit right there");
+    Console.WriteLine("I'll tell you how I became the prince of a town called Bel-Air");
+    Console.WriteLine();
+  }
   }
