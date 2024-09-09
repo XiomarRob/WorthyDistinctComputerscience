@@ -6,7 +6,7 @@ public static void Main(string[] args)
   {
     lyrics1();
     lyrics2();
- 
+    lyrics3();
     }
     
   public static void lyrics1()
@@ -28,5 +28,11 @@ public static void Main(string[] args)
     Console.WriteLine("Caught in a bad romance...");
     Console.WriteLine();
   }
- 
+  public static void lyrics3()
+  {
+    Console.WriteLine("Coming out of my cage");
+    Console.WriteLine("And I've been doing just fine");
+    Console.WriteLine("Gotta gotta be down");
+    Console.WriteLine("Because I want it all");
+    }
   }
